@@ -18,20 +18,20 @@ O aplicativo foi construído com atenção aos detalhes de UI/UX, replicando fie
     * Organização clara dos produtos em categorias "Masculino" e "Feminino" via navegação por abas superiores (`MaterialTopTabNavigator`).
     * Exibição de cards de produtos com imagem, título, **descrição breve**, preço com desconto e preço original riscado.
     * Estados de carregamento, erro e lista vazia com feedback visual adequado.
-    ![Tela principal](mobile\src\assets\fem.png)
+    ![Tela principal](mobile/src/assets/fem.png)
 * **Navegação Inferior (Bottom Tab Navigator)**:
     * Navegação persistente e intuitiva entre as seções "Início" (lista de produtos) e "Configurações".
     * Ícones dinâmicos que mudam de estado (foco).
-    ![Tela principal](mobile\src\assets\masc.png)
+    ![Tela principal](mobile/src/assets/masc.png)
 * **Tela de Detalhes do Produto Rica**:
     * Exibição completa de um produto individual, incluindo imagem principal, título, **descrição detalhada**, preço com desconto e preço original riscado.
     * Layout limpo e focado na informação do produto.
-    ![Detalhes de produto](mobile\src\assets\DetailsM.png)
+    ![Detalhes de produto](mobile/src/assets/DetailsM.png)
 * **Tela de Configurações Personalizada**:
     * Exibe dados simulados do perfil do usuário (nome, e-mail) com uma imagem de perfil que se sobrepõe ao card de conteúdo.
     * Opções de menu estilizadas para "Meus dados", "Notificações" e "Termos de uso".
     * Botão "Sair da conta" com confirmação, que limpa os dados de sessão.
-    ![Configurações](mobile\src\assets\user.png)
+    ![Configurações](mobile/src/assets/user.png)
 * **Consumo de API REST Real**:
     * Integração com a API pública [DummyJSON](https://dummyjson.com/docs) para buscar dinamicamente os dados de produtos.
     * Utiliza Axios para gerenciar as requisições HTTP, com tratamento de erros.
