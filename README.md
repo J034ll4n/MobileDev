@@ -13,7 +13,7 @@ O aplicativo foi construído com atenção aos detalhes de UI/UX, replicando fie
     * Feedback visual para campos obrigatórios (borda vermelha e mensagem de erro).
     * Funcionalidade de **mostrar/ocultar senha** com ícone de olho.
     * Mensagem de erro genérica para credenciais inválidas.
-    ![Tela de login](mobile\src\assets\log.png)
+    ![Tela de login](mobile/src/assets/log.png)
 * **Listagem de Produtos por Categoria (Abas Superiores)**:
     * Organização clara dos produtos em categorias "Masculino" e "Feminino" via navegação por abas superiores (`MaterialTopTabNavigator`).
     * Exibição de cards de produtos com imagem, título, **descrição breve**, preço com desconto e preço original riscado.
